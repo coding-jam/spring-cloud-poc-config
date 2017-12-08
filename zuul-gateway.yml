@@ -1,5 +1,5 @@
 zuul:
   routes:
     customers:
-      path: /v1/customers/**
+      path: /api/v1/customers/**
       serviceId: customer-services
