@@ -5,6 +5,6 @@ zuul:
       serviceId: order-services
       stripPrefix: false
     customers:
-      path: /api/v1/customers/**
+      path: /api/v1/customers/*
       serviceId: customer-services
       stripPrefix: false
