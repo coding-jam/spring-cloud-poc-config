@@ -1,7 +1,10 @@
 zuul:
   routes:
+    orders:
+      path: /api/v1/customers/*/orders
+      serviceId: order-services
+      stripPrefix: false
     customers:
       path: /api/v1/customers/**
       serviceId: customer-services
       stripPrefix: false
-      
