@@ -1,4 +1,5 @@
 zuul:
+  debug.request: true
   routes:
     orders:
       path: /api/v1/customers/*/orders/**
